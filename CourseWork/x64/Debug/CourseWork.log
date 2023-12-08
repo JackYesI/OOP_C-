@@ -1,0 +1,107 @@
+﻿  Foreign_Invoise.cpp
+  Internet_Invoise.cpp
+  System_Work.cpp
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(160,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(192,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): error C2664: 'bool System_Worker::closeInvoise::<lambda_1>::operator ()(const Invoise &) const': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise': no overloaded function could convert all the argument types
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : could be 'Invoise::Invoise(Invoise &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(Invoise &&)': cannot convert argument 1 from 'Invoise *' to 'Invoise &&'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : or       'Invoise::Invoise(const Invoise &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const Invoise &)': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(31,2): message : or       'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)': cannot convert argument 1 from 'Invoise *' to 'const size_t &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const size_t'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(93,3): message : see declaration of 'System_Worker::closeInvoise::<lambda_1>::operator ()'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(92,17): message : see reference to function template instantiation '_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,System_Worker::closeInvoise::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Invoise *>>>,
+              _Ty=Invoise *,
+              _Pr=System_Worker::closeInvoise::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): error C2664: 'bool System_Worker::getPay::<lambda_1>::operator ()(const Invoise &) const': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise': no overloaded function could convert all the argument types
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : could be 'Invoise::Invoise(Invoise &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(Invoise &&)': cannot convert argument 1 from 'Invoise *' to 'Invoise &&'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : or       'Invoise::Invoise(const Invoise &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const Invoise &)': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(31,2): message : or       'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)': cannot convert argument 1 from 'Invoise *' to 'const size_t &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const size_t'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(109,3): message : see declaration of 'System_Worker::getPay::<lambda_1>::operator ()'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(108,17): message : see reference to function template instantiation '_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,System_Worker::getPay::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Invoise *>>>,
+              _Ty=Invoise *,
+              _Pr=System_Worker::getPay::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): error C2664: 'bool System_Boss::editInvoise::<lambda_1>::operator ()(const Invoise &) const': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise': no overloaded function could convert all the argument types
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : could be 'Invoise::Invoise(Invoise &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(Invoise &&)': cannot convert argument 1 from 'Invoise *' to 'Invoise &&'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : or       'Invoise::Invoise(const Invoise &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const Invoise &)': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(31,2): message : or       'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)': cannot convert argument 1 from 'Invoise *' to 'const size_t &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const size_t'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(215,3): message : see declaration of 'System_Boss::editInvoise::<lambda_1>::operator ()'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(214,17): message : see reference to function template instantiation '_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,System_Boss::editInvoise::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Invoise *>>>,
+              _Ty=Invoise *,
+              _Pr=System_Boss::editInvoise::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): error C2664: 'bool System_Boss::deleteInvoise::<lambda_1>::operator ()(const Invoise &) const': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise': no overloaded function could convert all the argument types
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : could be 'Invoise::Invoise(Invoise &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(Invoise &&)': cannot convert argument 1 from 'Invoise *' to 'Invoise &&'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(50,1): message : or       'Invoise::Invoise(const Invoise &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const Invoise &)': cannot convert argument 1 from 'Invoise *' to 'const Invoise &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const Invoise'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\c++\OOP_C++\CourseWork\Invoise.h(31,2): message : or       'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : 'Invoise::Invoise(const size_t &,const size_t,const size_t,const size_t &,const bool)': cannot convert argument 1 from 'Invoise *' to 'const size_t &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : Reason: cannot convert from 'Invoise *' to 'const size_t'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(231,3): message : see declaration of 'System_Boss::deleteInvoise::<lambda_1>::operator ()'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,13): message : while trying to match the argument list '(Invoise *)'
+D:\c++\OOP_C++\CourseWork\System_Work.cpp(230,17): message : see reference to function template instantiation '_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,System_Boss::deleteInvoise::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Invoise *>>>,
+              _Ty=Invoise *,
+              _Pr=System_Boss::deleteInvoise::<lambda_1>
+          ]
+  Worker.cpp
+  Generating Code...

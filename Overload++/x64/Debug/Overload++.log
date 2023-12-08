@@ -1,0 +1,6 @@
+﻿  Overload++.cpp
+D:\c++\OOP_C++\Overload++\classes_overload.h(40,19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  classes_overload.cpp
+D:\c++\OOP_C++\Overload++\classes_overload.h(40,19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Overload++.vcxproj -> D:\c++\OOP_C++\x64\Debug\Overload++.exe

@@ -1,0 +1,25 @@
+﻿  DoubleList_Array.cpp
+D:\c++\OOP_C++\DoubleList_Array\DoubleList_Array.cpp(29,17): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\c++\OOP_C++\DoubleList_Array\DoubleList_Array.cpp(37,27): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(297,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(294,1): message : while compiling class template member function 'void Array_DL<int>::Add(const T &)'
+          with
+          [
+              T=int
+          ]
+D:\c++\OOP_C++\DoubleList_Array\DoubleList_Array.cpp(29,16): message : see the first reference to 'Array_DL<int>::Add' in 'main'
+D:\c++\OOP_C++\DoubleList_Array\DoubleList_Array.cpp(6,19): message : see reference to class template instantiation 'Array_DL<int>' being compiled
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(297,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(324,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(321,1): message : while compiling class template member function 'void Array_DL<int>::operator =(const Array_DL<int> &)'
+D:\c++\OOP_C++\DoubleList_Array\DoubleList_Array.cpp(48,9): message : see the first reference to 'Array_DL<int>::operator =' in 'main'
+D:\c++\OOP_C++\DoubleList_Array\Array_DL.h(324,19): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  DoubleList_Array.vcxproj -> D:\c++\OOP_C++\x64\Debug\DoubleList_Array.exe

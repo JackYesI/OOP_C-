@@ -1,0 +1,15 @@
+﻿  PQueue.cpp
+D:\c++\OOP_C++\PQueue\Queue.h(132,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\PQueue\Queue.h(128,1): message : while compiling class template member function 'int PQueue<int>::getPos(const Node<T> &) const'
+          with
+          [
+              T=int
+          ]
+D:\c++\OOP_C++\PQueue\Queue.h(48,1): message : while compiling class template member function 'void PQueue<int>::push(const Node<T> &)'
+          with
+          [
+              T=int
+          ]
+D:\c++\OOP_C++\PQueue\PQueue.cpp(10,15): message : see the first reference to 'PQueue<int>::push' in 'main'
+D:\c++\OOP_C++\PQueue\PQueue.cpp(8,17): message : see reference to class template instantiation 'PQueue<int>' being compiled
+  PQueue.vcxproj -> D:\c++\OOP_C++\x64\Debug\PQueue.exe

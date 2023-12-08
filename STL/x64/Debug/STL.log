@@ -1,0 +1,13 @@
+﻿  STL.cpp
+D:\c++\OOP_C++\STL\STL.cpp(94,13): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\c++\OOP_C++\STL\STL.cpp(102,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\c++\OOP_C++\STL\STL.cpp(148,25): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  STL.vcxproj -> D:\c++\OOP_C++\x64\Debug\STL.exe
